@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://backend-shopping-cart-8jog.onrender.com",
+  baseURL: "https://backend-shopping-cart-8jog.onrender.com",
 });
 
 export function setAuthToken(token) {
